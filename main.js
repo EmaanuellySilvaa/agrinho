@@ -6,54 +6,54 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como faço para conseguir medicamentos não padronizados do sus?",
+        enunciado: "Quais são os principais desafios enfrentados pelas escolas do campo no Brasil?",
         alternativas: [
             {
-                texto: "encaminhar-se a regional de saude do seu município, munido dos seguintes documentos: cpf ou rg, comprovante de residencia, prescriçao atualizada, receituario medico.",
-                afirmacao: "<b>Organização</b> Sim, a Sesa tem como principal função garantir o acesso ao serviços que visem a promoção, protećão e recuperação da saúde da população em todo o Paraná."
+                texto:  "Infraestrutura precária e acesso limitado a recursos: Um dos maiores obstáculos é a infraestrutura inadequada. Muitas escolas rurais carecem de saneamento básico, água potável, energia elétrica e até mesmo salas de aula em boas condições.",
+                afirmacao: "<b>desigualdade</b> A infraestrutura precária nas escolas rurais é um desafio central que engloba a ausência de saneamento básico, água potável, energia elétrica e até mesmo salas de aula em boas condições.."
             },
             {
-                texto: "Exigências quanto ao  relatório médico. Os documentos preenchidos pelo médico deverão conter carimbo legível, com nome e CRM do médico, data e assinatura.",
-                afirmacao: "Você se destaca por seu <b>conhecimento</b>, o carimbo deverá conter também o número do Registro de Qualificação de Especialista (RQE)"
+                texto: "Falta de professores qualificados e transporte deficiente: A escassez de professores qualificados que queiram atuar em áreas rurais é um desafio significativo. Muitas vezes, os profissionais que aceitam essas vagas enfrentam dificuldades de deslocamento e não possuem formação específica para a educação do campo.",
+                afirmacao: "<b>acessibilidade</b>,A falta de professores qualificados dispostos a atuar em áreas rurais e o transporte deficiente são grandes barreiras para a educação no campo"
             }
         ]
     },
     {
-        enunciado: "A falta de consciência ambiental e a baixa adesão a práticas sustentáveis acontecem por vários motivos, entre os quais destacam-se:",
+        enunciado: "O que diferencia a proposta pedagógica da educação do campo da educação urbana tradicional?",
         alternativas: [
             {
-                texto: "Falta de Educação Ambiental",
-                afirmacao: "Muitas pessoas não têm acesso a informações adequadas sobre o impacto de suas ações no meio ambiente, o que leva à falta de conscientização e, consequentemente, a comportamentos prejudiciais à <b>sustentabilidade</b>.</b>."
+                texto: "Contextualização à Realidade Local e Valorização dos Saberes: A educação do campo adota uma proposta pedagógica que busca ativamente vincular o currículo e as atividades de ensino à realidade e às especificidades do meio rural.",
+                afirmacao: "<b>Relevância</b>.</b>A contextualização à realidade local na educação do campo significa que o currículo e as atividades de ensino são diretamente vinculados às vivências, saberes e especificidades do meio rural."
             },
             {
-                texto: "Falta de Incentivos e Legislação",
-                afirmacao: "A ausência de incentivos governamentais e de uma legislação <b>rigorosa </b>faz com que empresas e indivíduos não se sintam motivados a adotar práticas sustentáveis, contribuindo para a continuidade de ações nocivas ao meio ambiente."
+                texto: "Pedagogia da Alternância e Formação Integral: Outro diferencial marcante, especialmente em instituições como as Escolas Família Agrícola (EFAs), é a Pedagogia da Alternância.",
+                afirmacao: "<b>Alternância</b>A Pedagogia da Alternância é um método da educação do campo, especialmente em Escolas Família Agrícola (EFAs), que intercala períodos de estudo na escola com períodos de aplicação prática na casa e na propriedade do aluno."
             }
         ]
     },
     {
-        enunciado: "Por que há tanta escassez de recursos na saúde pública?",
+        enunciado: "Qual a importância das Escolas Família Agrícola (EFAs) para a educação do campo?",
         alternativas: [
             {
-                texto: "Acredito que Falta de investimento governamental",
-                afirmacao: "<b>Pragmatismo</b> A falta de investimento governamental na saúde pública decorre de orçamentos restritos e outras prioridades de gastos, levando a infraestrutura precária e serviços de saúde insuficientes."
+                texto: "Formação Contextualizada e Integral para o Jovem Rural: As EFAs são vitais por oferecerem uma educação que está intrinsecamente ligada à realidade do campo.",
+                afirmacao: "<b>Enraizamento</b>As Escolas Família Agrícola (EFAs) são fundamentais porque proporcionam uma educação que está profundamente enraizada na realidade e nas necessidades do campo."
             },
             {
-                texto: "desigualdades na distribuição de recursos",
-                afirmacao: "<b>Detalhista</b>,Desigualdades na distribuição de recursos na saúde pública ocorrem quando os recursos são alocados de maneira desigual entre diferentes regiões ou populações. Isso pode resultar em acesso desigual a serviços de saúde, com áreas mais pobres ou rurais recebendo menos apoio e, portanto, enfrentando maiores desafios em termos de qualidade e acesso a cuidados médicos."
+                texto: "Desenvolvimento Sustentável e Fortalecimento Comunitário: Além de formar indivíduos, as EFAs contribuem diretamente para o desenvolvimento rural sustentável.",
+                afirmacao: "<b>Sustentabilidade Comunitária</b>As EFAs impulsionam o desenvolvimento rural sustentável ao capacitar jovens com práticas agroecológicas e de gestão, incentivando sua permanência no campo."
             }
         ]
     },
     {
-        enunciado: "Por que a violência obstétrica está cada vez mais banalizada? ",
+        enunciado: "De que forma a tecnologia pode contribuir para a melhoria da educação do campo?",
         alternativas: [
             {
-                texto: "Negligência médica",
-                afirmacao: "<b>Foco</b> Apesar do uso de algumas técnicas serem restringidas apenas para casos específicos, ainda são utilizadas diariamente por profissionais da saúde."
+                texto: "A tecnologia pode contribuir significativamente através do acesso à internet e plataformas de ensino a distância, que permitem a oferta de cursos e materiais didáticos de qualidade.",
+                afirmacao: "<b>Democratização Digital</b> A tecnologia, através do acesso à internet e plataformas de ensino a distância (EAD), é crucial para a educação do campo."
             },
             {
-                texto: "Desinformação da população.",
-                afirmacao: "<b>Curiosidade</b> Mesmo com fácil acesso a informação, o assunto é pouco comentado e dado certa  importância. "
+                texto: "A tecnologia torna o ensino no campo mais dinâmico e engajador, adaptando-o às necessidades individuais dos alunos.",
+                afirmacao: "<b>Engajamento Personalizado</b> A tecnologia torna o ensino no campo mais dinâmico e engajador através de recursos multimídia, gamificação e projetos virtuais. "
             }
         ]
     },
